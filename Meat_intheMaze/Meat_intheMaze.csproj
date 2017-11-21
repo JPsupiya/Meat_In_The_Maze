@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17DC6FE3-1B43-4B58-89EB-8F4CB395C01E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Meat_intheMaze</RootNamespace>
+    <AssemblyName>Meat_intheMaze</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="state1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="state1.Designer.cs">
+      <DependentUpon>state1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="state9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="state9.Designer.cs">
+      <DependentUpon>state9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tstate10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tstate10.Designer.cs">
+      <DependentUpon>Tstate10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tstate11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tstate11.Designer.cs">
+      <DependentUpon>Tstate11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="state2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="state2.Designer.cs">
+      <DependentUpon>state2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="state3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="state3.Designer.cs">
+      <DependentUpon>state3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="state4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="state4.Designer.cs">
+      <DependentUpon>state4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="state5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="state5.Designer.cs">
+      <DependentUpon>state5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="state6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="state6.Designer.cs">
+      <DependentUpon>state6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="state7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="state7.Designer.cs">
+      <DependentUpon>state7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="state8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="state8.Designer.cs">
+      <DependentUpon>state8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="state1.resx">
+      <DependentUpon>state1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="state9.resx">
+      <DependentUpon>state9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tstate10.resx">
+      <DependentUpon>Tstate10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tstate11.resx">
+      <DependentUpon>Tstate11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="state2.resx">
+      <DependentUpon>state2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="state3.resx">
+      <DependentUpon>state3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="state4.resx">
+      <DependentUpon>state4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="state5.resx">
+      <DependentUpon>state5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="state6.resx">
+      <DependentUpon>state6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="state7.resx">
+      <DependentUpon>state7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="state8.resx">
+      <DependentUpon>state8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="meat\11.png" />
+    <Content Include="meat\1357aee3faada96.jpg" />
+    <Content Include="meat\23584570_1392330420893132_1201545388_n - Copy.png" />
+    <Content Include="meat\23584570_1392330420893132_1201545388_n.png" />
+    <Content Include="meat\23635196_1392330424226465_1279969046_n - Copy.png" />
+    <Content Include="meat\240_F_123339439_23Jd8o2raRaeVGOyNeG456WSJzBChYya.jpg" />
+    <Content Include="meat\3-set-nature-and-desert-game-background-14764_imgs_14764.png" />
+    <Content Include="meat\605fead537566df265a54e6791be460348615a46.png" />
+    <Content Include="meat\artboard.png" />
+    <Content Include="meat\forest-game-background-8298_imgs_8298.jpg" />
+    <Content Include="meat\game_background_65-.jpg" />
+    <Content Include="meat\maxresdefault.jpg" />
+    <Content Include="meat\new bagkrond.jpg" />
+    <Content Include="meat\open-uri20160913-10271-etgwzi_f94ef7f6.jpeg" />
+    <Content Include="meat\orange.jpg" />
+    <Content Include="meat\purple.jpg" />
+    <Content Include="meat\tree.png" />
+    <Content Include="meat\tree2.png" />
+    <None Include="Resources\d.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
