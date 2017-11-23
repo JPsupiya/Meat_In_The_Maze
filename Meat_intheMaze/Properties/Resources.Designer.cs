@@ -63,6 +63,16 @@ namespace Meat_intheMaze.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _10 {
+            get {
+                object obj = ResourceManager.GetObject("10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1357aee3faada96 {
             get {
                 object obj = ResourceManager.GetObject("_1357aee3faada96", resourceCulture);
@@ -153,9 +163,49 @@ namespace Meat_intheMaze.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3 {
+            get {
+                object obj = ResourceManager.GetObject("3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3_set_nature_and_desert_game_background_14764_imgs_14764 {
             get {
                 object obj = ResourceManager.GetObject("_3_set_nature_and_desert_game_background_14764_imgs_14764", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4 {
+            get {
+                object obj = ResourceManager.GetObject("4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5 {
+            get {
+                object obj = ResourceManager.GetObject("5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6 {
+            get {
+                object obj = ResourceManager.GetObject("6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +223,9 @@ namespace Meat_intheMaze.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap artboard {
+        internal static System.Drawing.Bitmap _7 {
             get {
-                object obj = ResourceManager.GetObject("artboard", resourceCulture);
+                object obj = ResourceManager.GetObject("7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +233,29 @@ namespace Meat_intheMaze.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap d {
+        internal static System.Drawing.Bitmap _8 {
             get {
-                object obj = ResourceManager.GetObject("d", resourceCulture);
+                object obj = ResourceManager.GetObject("8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9 {
+            get {
+                object obj = ResourceManager.GetObject("9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap artboard {
+            get {
+                object obj = ResourceManager.GetObject("artboard", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +286,46 @@ namespace Meat_intheMaze.Properties {
         internal static System.Drawing.Bitmap maxresdefault {
             get {
                 object obj = ResourceManager.GetObject("maxresdefault", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap meatcute2 {
+            get {
+                object obj = ResourceManager.GetObject("meatcute2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap meatcute3 {
+            get {
+                object obj = ResourceManager.GetObject("meatcute3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap meatcute31 {
+            get {
+                object obj = ResourceManager.GetObject("meatcute31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap meatcute32 {
+            get {
+                object obj = ResourceManager.GetObject("meatcute32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

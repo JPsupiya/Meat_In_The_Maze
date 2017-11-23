@@ -197,7 +197,18 @@
     <Content Include="meat\purple.jpg" />
     <Content Include="meat\tree.png" />
     <Content Include="meat\tree2.png" />
-    <None Include="Resources\d.png" />
+    <None Include="Resources\meatcute33.png" />
+    <None Include="Resources\meatcute21.png" />
+    <None Include="Resources\meatcute32.png" />
+    <None Include="Resources\meatcute31.png" />
+    <None Include="Resources\31.png" />
+    <None Include="Resources\71.jpg" />
+    <None Include="Resources\51.jpeg" />
+    <None Include="Resources\62.jpg" />
+    <None Include="Resources\92.jpg" />
+    <None Include="Resources\101.png" />
+    <None Include="Resources\81.jpg" />
+    <None Include="Resources\41.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

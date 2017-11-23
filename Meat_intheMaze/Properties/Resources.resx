@@ -118,70 +118,103 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\71.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23635196_1392330424226465_1279969046_n___Copy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\23635196_1392330424226465_1279969046_n - copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23584570_1392330420893132_1201545388_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\23584570_1392330420893132_1201545388_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1357aee3faada96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\1357aee3faada96.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\meat\orange.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_23584570_1392330420893132_1201545388_n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="meatcute3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meatcute31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="artboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\artboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\purple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23584570_1392330420893132_1201545388_n___Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\23584570_1392330420893132_1201545388_n - copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23584570_1392330420893132_1201545388_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\23584570_1392330420893132_1201545388_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3_set_nature_and_desert_game_background_14764_imgs_14764" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\3-set-nature-and-desert-game-background-14764_imgs_14764.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_bagkrond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\new bagkrond.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23635196_1392330424226465_1279969046_n___Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\23635196_1392330424226465_1279969046_n - copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meatcute31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meatcute32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open_uri20160913_10271_etgwzi_f94ef7f6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\open-uri20160913-10271-etgwzi_f94ef7f6.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23584570_1392330420893132_1201545388_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\meat\23584570_1392330420893132_1201545388_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="forest_game_background_8298_imgs_8298" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\meat\forest-game-background-8298_imgs_8298.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\purple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tree2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\tree2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_23584570_1392330420893132_1201545388_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\23584570_1392330420893132_1201545388_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="artboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\artboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\92.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_605fead537566df265a54e6791be460348615a46" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\meat\605fead537566df265a54e6791be460348615a46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_23635196_1392330424226465_1279969046_n___Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\23635196_1392330424226465_1279969046_n - copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_23635196_1392330424226465_1279969046_n___Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\23635196_1392330424226465_1279969046_n - copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_23584570_1392330420893132_1201545388_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\23584570_1392330420893132_1201545388_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_23584570_1392330420893132_1201545388_n___Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\23584570_1392330420893132_1201545388_n - copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_23584570_1392330420893132_1201545388_n___Copy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\23584570_1392330420893132_1201545388_n - copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_3_set_nature_and_desert_game_background_14764_imgs_14764" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\3-set-nature-and-desert-game-background-14764_imgs_14764.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="game_background_65_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\game_background_65-.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tree2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\tree2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\meat\tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="open_uri20160913_10271_etgwzi_f94ef7f6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\open-uri20160913-10271-etgwzi_f94ef7f6.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="game_background_65_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\game_background_65-.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="new_bagkrond" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\new bagkrond.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\81.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_23635196_1392330424226465_1279969046_n___Copy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="_23584570_1392330420893132_1201545388_n___Copy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\meat\23584570_1392330420893132_1201545388_n - copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23635196_1392330424226465_1279969046_n___Copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\meat\23635196_1392330424226465_1279969046_n - copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_1357aee3faada96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\meat\1357aee3faada96.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\62.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="meatcute2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meatcute21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meatcute32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meatcute33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

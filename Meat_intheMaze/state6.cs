@@ -29,12 +29,12 @@ namespace Meat_intheMaze
             //เด้งดึ๋ง
             if (status == 1)
             {
-                meatbox6.Image = Properties.Resources._23584570_1392330420893132_1201545388_n;
+                meatbox6.Image = Properties.Resources.meatcute2;
                 status = 2;
             }
             else if (status == 2)
             {
-                meatbox6.Image = Properties.Resources._23635196_1392330424226465_1279969046_n___Copy;
+                meatbox6.Image = Properties.Resources.meatcute3;
                 status = 1;
             }
             //กำแพง

@@ -38,40 +38,42 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Goal8 = new System.Windows.Forms.PictureBox();
             this.meatbox7 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Goal8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatbox7)).BeginInit();
             this.SuspendLayout();
             // 
             // fe1
             // 
-            this.fe1.Location = new System.Drawing.Point(-206, 0);
+            this.fe1.Location = new System.Drawing.Point(-206, -13);
             this.fe1.Name = "fe1";
-            this.fe1.Size = new System.Drawing.Size(1200, 20);
+            this.fe1.Size = new System.Drawing.Size(1200, 13);
             this.fe1.TabIndex = 3;
             // 
             // fe2
             // 
-            this.fe2.Location = new System.Drawing.Point(-132, 1020);
+            this.fe2.Location = new System.Drawing.Point(-132, 1034);
             this.fe2.Name = "fe2";
-            this.fe2.Size = new System.Drawing.Size(1200, 20);
+            this.fe2.Size = new System.Drawing.Size(1200, 14);
             this.fe2.TabIndex = 4;
             // 
             // fe3
             // 
             this.fe3.BackColor = System.Drawing.Color.Transparent;
-            this.fe3.Location = new System.Drawing.Point(0, 0);
+            this.fe3.Location = new System.Drawing.Point(-12, 0);
             this.fe3.Name = "fe3";
-            this.fe3.Size = new System.Drawing.Size(20, 1000);
+            this.fe3.Size = new System.Drawing.Size(10, 1000);
             this.fe3.TabIndex = 5;
             // 
             // fe4
             // 
             this.fe4.BackColor = System.Drawing.Color.Transparent;
-            this.fe4.Location = new System.Drawing.Point(965, 0);
+            this.fe4.Location = new System.Drawing.Point(978, 0);
             this.fe4.Name = "fe4";
-            this.fe4.Size = new System.Drawing.Size(20, 1000);
+            this.fe4.Size = new System.Drawing.Size(31, 1000);
             this.fe4.TabIndex = 6;
             // 
             // s2
@@ -107,6 +109,15 @@
             this.timer3.Interval = 900;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Meat_intheMaze.Properties.Resources._7;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(982, 1040);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // Goal8
             // 
             this.Goal8.BackColor = System.Drawing.Color.Transparent;
@@ -121,32 +132,35 @@
             // meatbox7
             // 
             this.meatbox7.BackColor = System.Drawing.Color.Transparent;
-            this.meatbox7.Image = global::Meat_intheMaze.Properties.Resources._23584570_1392330420893132_1201545388_n;
+            this.meatbox7.Image = global::Meat_intheMaze.Properties.Resources.meatcute3;
             this.meatbox7.Location = new System.Drawing.Point(26, 23);
             this.meatbox7.Name = "meatbox7";
-            this.meatbox7.Size = new System.Drawing.Size(80, 74);
+            this.meatbox7.Size = new System.Drawing.Size(48, 38);
+            this.meatbox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.meatbox7.TabIndex = 7;
             this.meatbox7.TabStop = false;
             this.meatbox7.UseWaitCursor = true;
             // 
-            // Form8
+            // state7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(982, 1035);
+            this.Controls.Add(this.fe2);
             this.Controls.Add(this.Goal8);
             this.Controls.Add(this.gk1);
             this.Controls.Add(this.s2);
-            this.Controls.Add(this.meatbox7);
             this.Controls.Add(this.fe4);
+            this.Controls.Add(this.meatbox7);
             this.Controls.Add(this.fe3);
-            this.Controls.Add(this.fe2);
             this.Controls.Add(this.fe1);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form8";
+            this.Name = "state7";
             this.Text = "Meat_In_TheMaze State7";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form8_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Goal8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatbox7)).EndInit();
             this.ResumeLayout(false);
@@ -166,5 +180,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

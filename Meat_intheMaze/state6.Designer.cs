@@ -33,57 +33,48 @@
             this.f2 = new System.Windows.Forms.Label();
             this.f3 = new System.Windows.Forms.Label();
             this.f4 = new System.Windows.Forms.Label();
-            this.meatbox6 = new System.Windows.Forms.PictureBox();
             this.fk1 = new System.Windows.Forms.Panel();
-            this.Goal6 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.s = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.meatbox6)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Goal6 = new System.Windows.Forms.PictureBox();
+            this.meatbox6 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Goal6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meatbox6)).BeginInit();
             this.SuspendLayout();
             // 
             // f1
             // 
-            this.f1.Location = new System.Drawing.Point(-56, -4);
+            this.f1.Location = new System.Drawing.Point(-56, -17);
             this.f1.Name = "f1";
-            this.f1.Size = new System.Drawing.Size(1200, 20);
+            this.f1.Size = new System.Drawing.Size(1200, 18);
             this.f1.TabIndex = 3;
             // 
             // f2
             // 
-            this.f2.Location = new System.Drawing.Point(-170, 1019);
+            this.f2.Location = new System.Drawing.Point(-170, 1033);
             this.f2.Name = "f2";
-            this.f2.Size = new System.Drawing.Size(1200, 20);
+            this.f2.Size = new System.Drawing.Size(1200, 16);
             this.f2.TabIndex = 4;
             // 
             // f3
             // 
             this.f3.BackColor = System.Drawing.Color.Transparent;
-            this.f3.Location = new System.Drawing.Point(-3, -4);
+            this.f3.Location = new System.Drawing.Point(-18, -4);
             this.f3.Name = "f3";
-            this.f3.Size = new System.Drawing.Size(20, 1000);
+            this.f3.Size = new System.Drawing.Size(12, 1000);
             this.f3.TabIndex = 5;
             // 
             // f4
             // 
             this.f4.BackColor = System.Drawing.Color.Transparent;
-            this.f4.Location = new System.Drawing.Point(964, -4);
+            this.f4.Location = new System.Drawing.Point(979, -4);
             this.f4.Name = "f4";
             this.f4.Size = new System.Drawing.Size(20, 1000);
             this.f4.TabIndex = 6;
-            // 
-            // meatbox6
-            // 
-            this.meatbox6.BackColor = System.Drawing.Color.Transparent;
-            this.meatbox6.Image = global::Meat_intheMaze.Properties.Resources._23584570_1392330420893132_1201545388_n;
-            this.meatbox6.Location = new System.Drawing.Point(23, 29);
-            this.meatbox6.Name = "meatbox6";
-            this.meatbox6.Size = new System.Drawing.Size(80, 74);
-            this.meatbox6.TabIndex = 7;
-            this.meatbox6.TabStop = false;
-            this.meatbox6.UseWaitCursor = true;
             // 
             // fk1
             // 
@@ -92,17 +83,6 @@
             this.fk1.Name = "fk1";
             this.fk1.Size = new System.Drawing.Size(728, 31);
             this.fk1.TabIndex = 8;
-            // 
-            // Goal6
-            // 
-            this.Goal6.BackColor = System.Drawing.Color.Transparent;
-            this.Goal6.Image = global::Meat_intheMaze.Properties.Resources._1357aee3faada96;
-            this.Goal6.Location = new System.Drawing.Point(658, 490);
-            this.Goal6.Name = "Goal6";
-            this.Goal6.Size = new System.Drawing.Size(300, 300);
-            this.Goal6.TabIndex = 9;
-            this.Goal6.TabStop = false;
-            this.Goal6.UseWaitCursor = true;
             // 
             // timer1
             // 
@@ -129,26 +109,60 @@
             this.s.Text = "90";
             this.s.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form7
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Meat_intheMaze.Properties.Resources._5;
+            this.pictureBox1.Location = new System.Drawing.Point(0, -4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(984, 1043);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Goal6
+            // 
+            this.Goal6.BackColor = System.Drawing.Color.Transparent;
+            this.Goal6.Image = global::Meat_intheMaze.Properties.Resources._1357aee3faada96;
+            this.Goal6.Location = new System.Drawing.Point(658, 490);
+            this.Goal6.Name = "Goal6";
+            this.Goal6.Size = new System.Drawing.Size(300, 300);
+            this.Goal6.TabIndex = 9;
+            this.Goal6.TabStop = false;
+            this.Goal6.UseWaitCursor = true;
+            // 
+            // meatbox6
+            // 
+            this.meatbox6.BackColor = System.Drawing.Color.Transparent;
+            this.meatbox6.Image = global::Meat_intheMaze.Properties.Resources.meatcute3;
+            this.meatbox6.Location = new System.Drawing.Point(23, 29);
+            this.meatbox6.Name = "meatbox6";
+            this.meatbox6.Size = new System.Drawing.Size(48, 38);
+            this.meatbox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.meatbox6.TabIndex = 7;
+            this.meatbox6.TabStop = false;
+            this.meatbox6.UseWaitCursor = true;
+            // 
+            // state6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(982, 1035);
-            this.Controls.Add(this.s);
+            this.Controls.Add(this.f2);
             this.Controls.Add(this.Goal6);
-            this.Controls.Add(this.fk1);
-            this.Controls.Add(this.meatbox6);
+            this.Controls.Add(this.f1);
+            this.Controls.Add(this.s);
             this.Controls.Add(this.f4);
             this.Controls.Add(this.f3);
-            this.Controls.Add(this.f2);
-            this.Controls.Add(this.f1);
+            this.Controls.Add(this.meatbox6);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.fk1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form7";
+            this.Name = "state6";
             this.Text = "Meat_In_TheMaze State6";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form7_KeyDown);
-            ((System.ComponentModel.ISupportInitialize)(this.meatbox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Goal6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meatbox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -166,5 +180,6 @@
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Label s;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
