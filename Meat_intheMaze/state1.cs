@@ -42,11 +42,11 @@ namespace Meat_intheMaze
             //เด้งดึ๋ง
             if(status == 1)
             {
-                meatbox.Image = Properties.Resources.meatcute2;
+                meatbox.Image = Properties.Resources.meatcute3;
                 status = 2;
             }else if(status == 2)
             {
-                meatbox.Image = Properties.Resources.meatcute3;
+                meatbox.Image = Properties.Resources.meatcute4;
                 status = 1;
             }
             //กำแพง
@@ -76,6 +76,61 @@ namespace Meat_intheMaze
 
 
             if (meatbox.Bounds.IntersectsWith(ak1.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak2.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak3.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak4.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak5.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak6.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak7.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak8.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak8.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak10.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak11.Bounds))
+            {
+                meatbox.Top = 25;
+                meatbox.Left = 25;
+            }
+            else if (meatbox.Bounds.IntersectsWith(ak12.Bounds))
             {
                 meatbox.Top = 25;
                 meatbox.Left = 25;

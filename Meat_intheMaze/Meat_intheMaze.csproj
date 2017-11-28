@@ -197,6 +197,16 @@
     <Content Include="meat\purple.jpg" />
     <Content Include="meat\tree.png" />
     <Content Include="meat\tree2.png" />
+    <None Include="Resources\water1.png" />
+    <None Include="Resources\water.png" />
+    <None Include="Resources\glass1.png" />
+    <None Include="Resources\glass.jpeg" />
+    <None Include="Resources\wire.png" />
+    <None Include="Resources\meatcute4.png" />
+    <None Include="Resources\32.png" />
+    <None Include="Resources\mustroom2.png" />
+    <None Include="Resources\mustroom1.png" />
+    <None Include="Resources\mustroom.png" />
     <None Include="Resources\meatcute33.png" />
     <None Include="Resources\meatcute21.png" />
     <None Include="Resources\meatcute32.png" />

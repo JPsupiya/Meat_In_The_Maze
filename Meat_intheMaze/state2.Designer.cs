@@ -40,10 +40,8 @@
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.Goal1 = new System.Windows.Forms.PictureBox();
             this.meatbox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Goal1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatbox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // wall1
@@ -128,20 +126,11 @@
             this.meatbox1.Image = global::Meat_intheMaze.Properties.Resources.meatcute31;
             this.meatbox1.Location = new System.Drawing.Point(27, 61);
             this.meatbox1.Name = "meatbox1";
-            this.meatbox1.Size = new System.Drawing.Size(48, 38);
-            this.meatbox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.meatbox1.Size = new System.Drawing.Size(60, 60);
+            this.meatbox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.meatbox1.TabIndex = 8;
             this.meatbox1.TabStop = false;
             this.meatbox1.UseWaitCursor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::Meat_intheMaze.Properties.Resources._8;
-            this.pictureBox1.Location = new System.Drawing.Point(-3, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(985, 1047);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
             // 
             // state2
             // 
@@ -157,7 +146,6 @@
             this.Controls.Add(this.meatbox1);
             this.Controls.Add(this.stp);
             this.Controls.Add(this.wall1);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "state2";
             this.Text = "Meat_In_TheMaze State2";
@@ -165,8 +153,8 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form3_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.Goal1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatbox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -183,6 +171,5 @@
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.PictureBox Goal1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
