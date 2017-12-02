@@ -30,19 +30,19 @@ namespace Meat_intheMaze
         {
 
         }
-        int status=1;
-        
+        int status = 1;
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             //เด้งดึ๋ง
             if (status == 1)
             {
-                meatbox1.Image = Properties.Resources.meatcute2;
+                meatbox1.Image = Properties.Resources.meatcute3;
                 status = 2;
             }
             else if (status == 2)
             {
-                meatbox1.Image = Properties.Resources.meatcute3;
+                meatbox1.Image = Properties.Resources.meatcute4;
                 status = 1;
             }
             //กำแพง
@@ -66,16 +66,107 @@ namespace Meat_intheMaze
                 meatbox1.Top = 25;
                 meatbox1.Left = 25;
             }
-            
+             
+
         }
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            if (meatbox1.Bounds.IntersectsWith(ak.Bounds))
+            if (meatbox1.Bounds.IntersectsWith(bk1.Bounds))
             {
                 meatbox1.Top = 25;
                 meatbox1.Left = 25;
             }
+            
+            else if (meatbox1.Bounds.IntersectsWith(bk2.Bounds))
+            {
+                timer2.Stop();
+                bk2.Image = Properties.Resources.ghost55555;
+                MessageBox.Show("เ_ย ผีหลอก!! หนีแปป");
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+                timer2.Start();
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk4.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk5.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk6.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk7.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk10.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk11.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk12.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk15.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk15.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk16.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk17.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk19.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk20.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+            else if (meatbox1.Bounds.IntersectsWith(bk9.Bounds))
+            {
+                timer2.Stop();
+                bk9.Image = Properties.Resources.wire1;
+                MessageBox.Show("คุณโดนหนาม ชึ้ก!!!! ตายแปป");
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+                timer2.Start();
+            }
+            else if (meatbox1.Bounds.IntersectsWith(mmg.Bounds))
+            {
+                meatbox1.Top = 25;
+                meatbox1.Left = 25;
+            }
+
             else if (meatbox1.Bounds.IntersectsWith(Goal1.Bounds))
             {
                 timer1.Stop();
@@ -94,7 +185,16 @@ namespace Meat_intheMaze
 
         }
 
-        private void Form3_KeyDown(object sender, KeyEventArgs e)
+        
+        int n = 90;
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            
+
+            
+        }
+
+        private void state2_KeyDown(object sender, KeyEventArgs e)
         {
             switch (e.KeyCode)
             {
@@ -102,17 +202,27 @@ namespace Meat_intheMaze
                 case Keys.Down: meatbox1.Top += 10; break;
                 case Keys.Right: meatbox1.Left += 10; break;
                 case Keys.Left: meatbox1.Left -= 10; break;
-                
+
 
             }
-            
-            
         }
-        int n = 90;
-        private void timer3_Tick(object sender, EventArgs e)
+        int a = 8;
+        private void ghost_Tick(object sender, EventArgs e)
         {
-            
+            mmg.Left += a;
+            if (mmg.Bounds.IntersectsWith(bk21.Bounds))
+            {
+                a = -a;
+            }else if (mmg.Bounds.IntersectsWith(bk17.Bounds))
+            {
+                a = -a;
+            }
 
+       
+        }
+
+        private void timer3_Tick_1(object sender, EventArgs e)
+        {
             if (n > 0)
             {
                 n--;
@@ -127,10 +237,10 @@ namespace Meat_intheMaze
                 this.Hide();
             }
 
+
+
             stp.Text = n.ToString();
         }
-
-       
     }
 }
     
