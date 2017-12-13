@@ -20,7 +20,7 @@ namespace Meat_intheMaze
         
         private void button1_Click(object sender, EventArgs e)
         {
-            Game_state1 form = new Game_state1();
+            story_of_game form = new story_of_game();
             form.Show();
             this.Hide();
         }
@@ -28,6 +28,18 @@ namespace Meat_intheMaze
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            tutorial a =   new tutorial();
+            a.Show();
+            this.Hide();
         }
     }
 }

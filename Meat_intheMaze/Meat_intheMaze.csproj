@@ -45,29 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
     <Compile Include="state1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="state1.Designer.cs">
       <DependentUpon>state1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="state9.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="state9.Designer.cs">
-      <DependentUpon>state9.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Tstate10.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tstate10.Designer.cs">
-      <DependentUpon>Tstate10.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Tstate11.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tstate11.Designer.cs">
-      <DependentUpon>Tstate11.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -99,37 +87,25 @@
     <Compile Include="state5.Designer.cs">
       <DependentUpon>state5.cs</DependentUpon>
     </Compile>
-    <Compile Include="state6.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="state6.Designer.cs">
-      <DependentUpon>state6.cs</DependentUpon>
-    </Compile>
-    <Compile Include="state7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="state7.Designer.cs">
-      <DependentUpon>state7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="state8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="state8.Designer.cs">
-      <DependentUpon>state8.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="story of game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="story of game.Designer.cs">
+      <DependentUpon>story of game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The final of game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The final of game.Designer.cs">
+      <DependentUpon>The final of game.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="state1.resx">
       <DependentUpon>state1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="state9.resx">
-      <DependentUpon>state9.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tstate10.resx">
-      <DependentUpon>Tstate10.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tstate11.resx">
-      <DependentUpon>Tstate11.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -146,15 +122,6 @@
     <EmbeddedResource Include="state5.resx">
       <DependentUpon>state5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="state6.resx">
-      <DependentUpon>state6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="state7.resx">
-      <DependentUpon>state7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="state8.resx">
-      <DependentUpon>state8.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -165,6 +132,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="story of game.resx">
+      <DependentUpon>story of game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The final of game.resx">
+      <DependentUpon>The final of game.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -198,6 +171,7 @@
     <Content Include="meat\snake.png" />
     <Content Include="meat\tree.png" />
     <Content Include="meat\tree2.png" />
+    <None Include="Resources\tr2.png" />
     <None Include="Resources\tr1.png" />
     <None Include="Resources\tl.png" />
     <None Include="Resources\tr.png" />
@@ -226,6 +200,22 @@
     <None Include="Resources\cage-156838_960_720.png" />
     <None Include="Resources\cage.png" />
     <None Include="Resources\cage2.png" />
+    <None Include="Resources\331.png" />
+    <None Include="Resources\hr1.png" />
+    <None Include="Resources\meatcute35.png" />
+    <None Include="Resources\meatcuteM31.png" />
+    <None Include="Resources\88.png" />
+    <None Include="Resources\black-2028174_960_720.png" />
+    <None Include="Resources\hr2.png" />
+    <None Include="Resources\661.png" />
+    <None Include="Resources\221.png" />
+    <None Include="Resources\bl1.png" />
+    <None Include="Resources\72.jpg" />
+    <None Include="Resources\arrow key.jpg" />
+    <None Include="Resources\meatcuteM32.png" />
+    <None Include="Resources\PNGPIX-COM-Heart-PNG-Transparent-Image-500x294.png" />
+    <None Include="Resources\heart.png" />
+    <None Include="Resources\PNGPIX-COM-Heart-PNG-Transparent-Image-500x2941.png" />
     <Content Include="Resources\snake.png" />
     <None Include="Resources\snake1.png" />
     <None Include="Resources\Treasure.png" />

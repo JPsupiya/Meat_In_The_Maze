@@ -59,6 +59,7 @@
             this.protect4 = new System.Windows.Forms.PictureBox();
             this.protect2 = new System.Windows.Forms.PictureBox();
             this.protect3 = new System.Windows.Forms.PictureBox();
+            this.tim = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.q2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.w7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.w6)).BeginInit();
@@ -75,6 +76,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.protect4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.protect2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.protect3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tim)).BeginInit();
             this.SuspendLayout();
             // 
             // fence1
@@ -209,6 +211,7 @@
             // meatbox3
             // 
             this.meatbox3.BackColor = System.Drawing.Color.Transparent;
+            this.meatbox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.meatbox3.Image = global::Meat_intheMaze.Properties.Resources.meatcute3;
             this.meatbox3.Location = new System.Drawing.Point(32, 53);
             this.meatbox3.Name = "meatbox3";
@@ -328,12 +331,21 @@
             this.protect3.TabIndex = 43;
             this.protect3.TabStop = false;
             // 
+            // tim
+            // 
+            this.tim.Location = new System.Drawing.Point(772, 23);
+            this.tim.Name = "tim";
+            this.tim.Size = new System.Drawing.Size(25, 50);
+            this.tim.TabIndex = 44;
+            this.tim.TabStop = false;
+            // 
             // state4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(982, 1037);
+            this.Controls.Add(this.tim);
             this.Controls.Add(this.protect3);
             this.Controls.Add(this.protect2);
             this.Controls.Add(this.protect4);
@@ -378,6 +390,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.protect4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.protect2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.protect3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tim)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -415,5 +428,6 @@
         private System.Windows.Forms.PictureBox protect4;
         private System.Windows.Forms.PictureBox protect2;
         private System.Windows.Forms.PictureBox protect3;
+        private System.Windows.Forms.PictureBox tim;
     }
 }

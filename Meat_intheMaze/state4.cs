@@ -193,6 +193,11 @@ namespace Meat_intheMaze
                 meatbox3.Top = 25;
                 meatbox3.Left = 25;
             }
+            else if (meatbox3.Bounds.IntersectsWith(tim.Bounds))
+            {
+                meatbox3.Top = 25;
+                meatbox3.Left = 25;
+            }
         }
 
         private void ek3_Click(object sender, EventArgs e)

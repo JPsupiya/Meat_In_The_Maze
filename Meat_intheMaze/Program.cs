@@ -16,7 +16,7 @@ namespace Meat_intheMaze
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new state5());
+            Application.Run(new Login());
         }
     }
 }

@@ -10,12 +10,9 @@ c:\users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaz
 C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.Game_state1.resources
 C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.Login.resources
 C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.state2.resources
-C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.state9.resources
-C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.Tstate10.resources
-C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.Tstate11.resources
 C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.state3.resources
 C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.state5.resources
-C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.state6.resources
-C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.state7.resources
-C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.state8.resources
 C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.state4.resources
+C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.story_of_game.resources
+C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.tutorial.resources
+C:\Users\user\source\repos\Meat_intheMaze\Meat_intheMaze\obj\Debug\Meat_intheMaze.The_final_of_game.resources

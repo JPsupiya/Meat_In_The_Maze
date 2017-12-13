@@ -182,11 +182,11 @@ namespace Meat_intheMaze
                 timer1.Stop();
                 timer2.Stop();
                 timer3.Stop();
-                MessageBox.Show("Next state !");
+                MessageBox.Show("ในที่สุดเจ้าก้อผ่านมันมา  เจ้าเก่งกว่าที่ข้าคิดไว้นะ");
                 n = 91;
                 meatbox4.Top = 580;
                 meatbox4.Left = 660;
-                state6 a = new state6();
+                The_final_of_game a = new The_final_of_game();
                 a.Show();
                 this.Hide();
 
