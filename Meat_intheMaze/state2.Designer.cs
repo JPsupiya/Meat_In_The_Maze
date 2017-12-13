@@ -37,14 +37,16 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.ghost = new System.Windows.Forms.Timer(this.components);
+            this.bk2 = new System.Windows.Forms.PictureBox();
+            this.bk9 = new System.Windows.Forms.PictureBox();
             this.bk11 = new System.Windows.Forms.Panel();
             this.bk14 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bk13 = new System.Windows.Forms.Panel();
             this.bk20 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.bk19 = new System.Windows.Forms.Panel();
             this.bk18 = new System.Windows.Forms.Panel();
+            this.bk17 = new System.Windows.Forms.Panel();
             this.bk21 = new System.Windows.Forms.PictureBox();
             this.bk16 = new System.Windows.Forms.Panel();
             this.bk15 = new System.Windows.Forms.Panel();
@@ -54,23 +56,21 @@
             this.bk6 = new System.Windows.Forms.Panel();
             this.bk5 = new System.Windows.Forms.Panel();
             this.bk4 = new System.Windows.Forms.Panel();
-            this.bk3 = new System.Windows.Forms.Panel();
             this.Goal1 = new System.Windows.Forms.PictureBox();
             this.bk1 = new System.Windows.Forms.Panel();
             this.meatbox1 = new System.Windows.Forms.PictureBox();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.bk17 = new System.Windows.Forms.Panel();
-            this.bk9 = new System.Windows.Forms.PictureBox();
-            this.bk2 = new System.Windows.Forms.PictureBox();
+            this.bk3 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.mmg = new System.Windows.Forms.PictureBox();
-            this.ghost = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bk2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bk9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bk21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Goal1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatbox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bk9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bk2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mmg)).BeginInit();
             this.SuspendLayout();
             // 
@@ -131,6 +131,30 @@
             this.timer3.Interval = 1000;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick_1);
             // 
+            // ghost
+            // 
+            this.ghost.Enabled = true;
+            this.ghost.Tick += new System.EventHandler(this.ghost_Tick);
+            // 
+            // bk2
+            // 
+            this.bk2.Location = new System.Drawing.Point(393, 141);
+            this.bk2.Name = "bk2";
+            this.bk2.Size = new System.Drawing.Size(107, 99);
+            this.bk2.TabIndex = 27;
+            this.bk2.TabStop = false;
+            // 
+            // bk9
+            // 
+            this.bk9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bk9.Image = global::Meat_intheMaze.Properties.Resources.mustroom1;
+            this.bk9.Location = new System.Drawing.Point(22, 355);
+            this.bk9.Name = "bk9";
+            this.bk9.Size = new System.Drawing.Size(124, 149);
+            this.bk9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bk9.TabIndex = 26;
+            this.bk9.TabStop = false;
+            // 
             // bk11
             // 
             this.bk11.BackColor = System.Drawing.Color.Transparent;
@@ -150,18 +174,6 @@
             this.bk14.Size = new System.Drawing.Size(88, 72);
             this.bk14.TabIndex = 24;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::Meat_intheMaze.Properties.Resources.sleep;
-            this.pictureBox2.Location = new System.Drawing.Point(98, 771);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(62, 58);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.UseWaitCursor = true;
-            // 
             // bk13
             // 
             this.bk13.BackColor = System.Drawing.Color.Transparent;
@@ -180,18 +192,6 @@
             this.bk20.Size = new System.Drawing.Size(275, 55);
             this.bk20.TabIndex = 17;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::Meat_intheMaze.Properties.Resources.sleep;
-            this.pictureBox3.Location = new System.Drawing.Point(26, 770);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(61, 59);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 21;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.UseWaitCursor = true;
-            // 
             // bk19
             // 
             this.bk19.BackColor = System.Drawing.Color.Transparent;
@@ -209,6 +209,15 @@
             this.bk18.Name = "bk18";
             this.bk18.Size = new System.Drawing.Size(218, 50);
             this.bk18.TabIndex = 17;
+            // 
+            // bk17
+            // 
+            this.bk17.BackColor = System.Drawing.Color.Transparent;
+            this.bk17.BackgroundImage = global::Meat_intheMaze.Properties.Resources.fence;
+            this.bk17.Location = new System.Drawing.Point(153, 627);
+            this.bk17.Name = "bk17";
+            this.bk17.Size = new System.Drawing.Size(50, 91);
+            this.bk17.TabIndex = 18;
             // 
             // bk21
             // 
@@ -237,7 +246,7 @@
             this.bk15.BackgroundImage = global::Meat_intheMaze.Properties.Resources.fence;
             this.bk15.Location = new System.Drawing.Point(12, 573);
             this.bk15.Name = "bk15";
-            this.bk15.Size = new System.Drawing.Size(521, 50);
+            this.bk15.Size = new System.Drawing.Size(499, 50);
             this.bk15.TabIndex = 17;
             // 
             // bk10
@@ -289,19 +298,10 @@
             // 
             this.bk4.BackColor = System.Drawing.Color.Transparent;
             this.bk4.BackgroundImage = global::Meat_intheMaze.Properties.Resources.fence;
-            this.bk4.Location = new System.Drawing.Point(594, 141);
+            this.bk4.Location = new System.Drawing.Point(610, 141);
             this.bk4.Name = "bk4";
-            this.bk4.Size = new System.Drawing.Size(397, 37);
+            this.bk4.Size = new System.Drawing.Size(381, 37);
             this.bk4.TabIndex = 13;
-            // 
-            // bk3
-            // 
-            this.bk3.BackColor = System.Drawing.Color.Transparent;
-            this.bk3.BackgroundImage = global::Meat_intheMaze.Properties.Resources.fence;
-            this.bk3.Location = new System.Drawing.Point(513, 141);
-            this.bk3.Name = "bk3";
-            this.bk3.Size = new System.Drawing.Size(82, 37);
-            this.bk3.TabIndex = 11;
             // 
             // Goal1
             // 
@@ -347,48 +347,48 @@
             this.panel18.Size = new System.Drawing.Size(63, 56);
             this.panel18.TabIndex = 25;
             // 
-            // bk17
+            // bk3
             // 
-            this.bk17.BackColor = System.Drawing.Color.Transparent;
-            this.bk17.BackgroundImage = global::Meat_intheMaze.Properties.Resources.fence;
-            this.bk17.Location = new System.Drawing.Point(153, 627);
-            this.bk17.Name = "bk17";
-            this.bk17.Size = new System.Drawing.Size(50, 91);
-            this.bk17.TabIndex = 18;
+            this.bk3.BackColor = System.Drawing.Color.Transparent;
+            this.bk3.BackgroundImage = global::Meat_intheMaze.Properties.Resources.fence;
+            this.bk3.Location = new System.Drawing.Point(513, 141);
+            this.bk3.Name = "bk3";
+            this.bk3.Size = new System.Drawing.Size(100, 37);
+            this.bk3.TabIndex = 11;
             // 
-            // bk9
+            // pictureBox3
             // 
-            this.bk9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bk9.Image = global::Meat_intheMaze.Properties.Resources.mustroom1;
-            this.bk9.Location = new System.Drawing.Point(22, 355);
-            this.bk9.Name = "bk9";
-            this.bk9.Size = new System.Drawing.Size(124, 149);
-            this.bk9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.bk9.TabIndex = 26;
-            this.bk9.TabStop = false;
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::Meat_intheMaze.Properties.Resources.sleep;
+            this.pictureBox3.Location = new System.Drawing.Point(26, 770);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(61, 59);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 21;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.UseWaitCursor = true;
             // 
-            // bk2
+            // pictureBox2
             // 
-            this.bk2.Location = new System.Drawing.Point(393, 141);
-            this.bk2.Name = "bk2";
-            this.bk2.Size = new System.Drawing.Size(107, 99);
-            this.bk2.TabIndex = 27;
-            this.bk2.TabStop = false;
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Meat_intheMaze.Properties.Resources.sleep;
+            this.pictureBox2.Location = new System.Drawing.Point(98, 771);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(62, 58);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.UseWaitCursor = true;
             // 
             // mmg
             // 
-            this.mmg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.mmg.Image = global::Meat_intheMaze.Properties.Resources.ghost55555;
-            this.mmg.Location = new System.Drawing.Point(437, 640);
+            this.mmg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.mmg.Image = global::Meat_intheMaze.Properties.Resources.ghost555551;
+            this.mmg.Location = new System.Drawing.Point(437, 641);
             this.mmg.Name = "mmg";
-            this.mmg.Size = new System.Drawing.Size(96, 68);
+            this.mmg.Size = new System.Drawing.Size(63, 68);
             this.mmg.TabIndex = 28;
             this.mmg.TabStop = false;
-            // 
-            // ghost
-            // 
-            this.ghost.Enabled = true;
-            this.ghost.Tick += new System.EventHandler(this.ghost_Tick);
             // 
             // state2
             // 
@@ -396,7 +396,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(982, 1045);
-            this.Controls.Add(this.mmg);
             this.Controls.Add(this.bk2);
             this.Controls.Add(this.bk9);
             this.Controls.Add(this.bk11);
@@ -427,18 +426,19 @@
             this.Controls.Add(this.bk3);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.mmg);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "state2";
             this.Text = "Meat_In_TheMaze State2";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.state2_KeyDown);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bk2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bk9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bk21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Goal1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.meatbox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bk9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bk2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mmg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -251,7 +251,7 @@ namespace Meat_intheMaze
                 timer3.Stop();
                 MessageBox.Show("Time Out!");
                 n = 90;
-                Game_state1 p = new Game_state1();
+                state2 p = new  state2();
                 p.Show();
                 this.Hide();
             }
